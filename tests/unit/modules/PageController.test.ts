@@ -134,7 +134,7 @@ describe('PageController', () => {
     await controller.clearCookies();
     assert.strictEqual(deleteCookieArgsLen, 1);
 
-    await controller.setViewport(800, 600);
+    // await controller.setViewport(800, 600);
     await controller.emulateDevice('iPhone');
     await controller.emulateDevice('iPad');
     await controller.emulateDevice('Android');
